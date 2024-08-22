@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap)
+
+:root
+  font-family: "Inter", Arial, sans-serif
+  background-image: url('https://media.discordapp.net/attachments/1276079396154904598/1276081481558659163/New_Project_26.png?ex=66c83afd&is=66c6e97d&hm=f15c5965b4b92df84a17b0824198327391f4923198cf3f5941070259ad6777fd&=&format=webp&quality=lossless&width=990&height=401')
+  background-size: cover
+  color: #ededed
+  display: flex
+  flex-direction: column
+  min-height: 100vh
+  align-content: center
+  justify-content: center
+  text-align: center
+
+#content-container
+  display: flex
+  z-index: -1
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  text-align: center
+  min-height: 100vh
+
+#content
+  backdrop-filter: blur(20px)
+  background: rgba(0, 0, 0, 0.5)
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.5)
+  width: 500px
+  padding-top: 1em
+  padding-bottom: 3em
+  border-radius: 4em
+
+  h2
+    font-size: 5em
+
+  .avatar
+    transition: ease all 500ms
+    position: relative
+    top: 50px
+    border-radius: 50%
+    box-shadow: 0px 0px 30px #000
+
+    &:hover
+      box-shadow: none
+      transform: translateY(3px)
+
+.credit
+  text-decoration: underline
+  color: inherit
+  opacity: 20%
+  margin-top: 15px

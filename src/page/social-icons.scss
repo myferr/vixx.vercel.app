@@ -1,0 +1,28 @@
+.social-icon-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icon-container {
+  transition: all 200ms ease-in-out;
+  padding: 10px 40px 5px 10px;
+  border-radius: 100px;
+  border: 1px solid #242424;
+  background-color: #131313;
+}
+
+.social-icon-container:hover {
+  background-color: #131313;
+}
+
+.social-icon {
+  transition: all 200ms ease-in-out;
+}
+
+.with-push {
+  margin-left: 30px;
+}
+
+.social-icon:hover {
+  transform: scale(95%);
+}

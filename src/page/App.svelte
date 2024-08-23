@@ -12,7 +12,7 @@
   <div id="content-container">
     <div id="content">
       <img
-        src="https://cdn.discordapp.com/avatars/1092386075877593179/02e3bae529240b1768ad668baf98ee9a.webp?size=1024&format=webp&width=0&height=460"
+        src="https://cdn.discordapp.com/avatars/1092386075877593179/8acf4619156e7b9b93d233c1adc85674.webp?size=1024&format=webp&width=0&height=345"
         alt="User Avatar"
         class="avatar"
         width="100px"
